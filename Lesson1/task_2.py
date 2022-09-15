@@ -7,7 +7,7 @@ def check_input():
         print("Введено не число")
 
 
-def checkArea(coordinates):
+def check_area(coordinates):
     area = 4
     if coordinates[0] > 0 and coordinates[1] > 0:
         area = 1
@@ -18,4 +18,4 @@ def checkArea(coordinates):
     print(f"Координаты находятся в плоскости {area}")
 
 
-checkArea(check_input())
+check_area(check_input())
